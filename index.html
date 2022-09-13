@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" main="IE=edge" />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -10,70 +10,125 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" main="width=device-width, initial-scale=1.0" />
     <title>NOOTRIS</title>
   </head>
   <body>
-    <div class="wrapper">
-      <div class="top">
-        <header class="header center">
-          <div class="logo">
-            <a href="#">
-              <img src="img/logo.svg" alt="logo" />
-            </a>
-          </div>
+    <div class="top">
+      <header class="header center">
+        <div class="logo">
+          <a href="#">
+            <img src="img/logo.svg" alt="logo" />
+          </a>
+        </div>
 
-          <nav class="menu">
-            <ul class="menu__list">
-              <li class="menu__item"><a href="#">FAQ</a></li>
-              <li class="menu__item"><a href="#">Оплата и доставка</a></li>
-              <li class="menu__item"><a href="#">Возврат</a></li>
-              <li class="menu__item"><a href="#">Исследования</a></li>
-              <li class="menu__item"><a href="#">Личный кабинет</a></li>
-              <li class="menu__item"><a href="#">8 8 (800) 600-09-90</a></li>
-            </ul>
-          </nav>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item"><a href="#">FAQ</a></li>
+            <li class="menu__item"><a href="#">Оплата и доставка</a></li>
+            <li class="menu__item"><a href="#">Возврат</a></li>
+            <li class="menu__item"><a href="#">Исследования</a></li>
+            <li class="menu__item"><a href="#">Личный кабинет</a></li>
+            <li class="menu__item"><a href="#">8 8 (800) 600-09-90</a></li>
+          </ul>
+        </nav>
 
-          <div class="cart">
-            <a href="#">
-              <img src="img/cart.svg" alt="cart" />
-            </a>
-          </div>
-        </header>
+        <div class="cart">
+          <a href="#">
+            <img src="img/cart.svg" alt="cart" />
+          </a>
+        </div>
+      </header>
 
-        <div class="content center">
-          <div class="content__box-img">
+      <div class="main center">
+        <div class="main__box-img">
+          <img
+            class="main__img main__img-ginger"
+            src="img/ginger.png"
+            alt="ginger"
+          />
+          <img
+            class="main__img main__img-nootris"
+            src="img/nootris.png"
+            alt="nootris"
+          />
+          <img
+            class="main__img main__img-lemon"
+            src="img/lemon.png"
+            alt="lemon"
+          />
+        </div>
+
+        <p class="main__heading">АКТИВИРУЙ<br />ИММУНИТЕТ!</p>
+        <p class="main__text">
+          Всего пять секунд в день помогут укрепить иммунитет и повысить
+          защитные силы организма
+        </p>
+        <p class="main__text_b">NOOTRIS ПОМОГАЕТ</p>
+        <p class="main__text_s">
+          Вашему организму во время пандемии и сезонных простуд
+        </p>
+      </div>
+    </div>
+
+    <div class="bottom">
+      <div class="discount center">
+        <p class="discount__heading">
+          ПОЛУЧИ ЗАЩИТУ ИММУНИТЕТА<br />
+          <span class="discount__heading discount__heading_orange"
+            >СО СКИДКОЙ -15% ПЕРВЫМ!</span
+          >
+        </p>
+
+        <div class="price">
+          <p class="price__text_old">750₽</p>
+          <p class="price__text">690₽</p>
+        </div>
+
+        <div class="advantages">
+          <div class="advantages__item">
             <img
-              class="content__img content__img-ginger"
-              src="img/ginger.png"
+              class="advantages__img"
+              src="img/ginger-disc.png"
               alt="ginger"
             />
-            <img
-              class="content__img content__img-nootris"
-              src="img/nootris.png"
-              alt="nootris"
-            />
-            <img
-              class="content__img content__img-lemon"
-              src="img/lemon.png"
-              alt="lemon"
-            />
+            <p class="advantages__text">
+              Содержит<br /><span
+                class="advantages__text advantages__text_orange"
+                >имбирь</span
+              >
+            </p>
           </div>
 
-          <p class="content__heading">АКТИВИРУЙ<br />ИММУНИТЕТ!</p>
-          <p class="content__text">
-            Всего пять секунд в день помогут укрепить иммунитет и повысить
-            защитные силы организма
-          </p>
-          <p class="content__text_b">NOOTRIS ПОМОГАЕТ</p>
-          <p class="content__text_s">
-            Вашему организму во время пандемии и сезонных простуд
-          </p>
-        </div>
-      </div>
+          <div class="advantages__item">
+            <img
+              class="advantages__img"
+              src="img/nootris-disc.png"
+              alt="nootris"
+            />
+            <div class="advantages__box">
+              <p class="advantages__text advantages__text_big">
+                + Бесплатная доставка
+              </p>
+              <p
+                class="advantages__text advantages__text_medium advantages__text_orange"
+              >
+                Специальная цена
+              </p>
+            </div>
+          </div>
 
-      <div class="bottom">
-        <div class="footer center"></div>
+          <div class="advantages__item">
+            <img class="advantages__img" src="img/virus-disc.png" alt="virus" />
+            <p class="advantages__text">
+              Нейтрализует<br /><span
+                class="advantages__text advantages__text_orange"
+                >вирусы</span
+              >
+            </p>
+          </div>
+        </div>
+        <button class="button">Оформить заказ!</button>
       </div>
     </div>
   </body>

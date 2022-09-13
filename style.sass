@@ -6,24 +6,17 @@
     color: #fff
     font-family: "Rubik", "Arial", sans-serif
     font-weight: 400
-    font-size: 18px
-    line-height: 24px
 
 a
     text-decoration: none
-
-.wrapper
-    display: flex
-    flex-direction: column
-    height: 100%
 
 .center
     padding-left: calc(50% - 656px)
     padding-right: calc(50% - 656px)
 
 .top
-    background: url("img/bg-yellow.jpg")
-    flex: 1 0 auto
+    background: url("img/bg-yellow.jpg"), no-repeat
+    background-size: cover
 
 .header
     height: 80px
@@ -46,7 +39,7 @@ a
 .cart
     margin-top: 10px
 
-.content
+.main
     padding-top: 96px
     padding-bottom: 92px
     position: relative
@@ -88,5 +81,71 @@ a
             width: 350px
 
 .bottom
-    flex: 0 0 auto
     background-color: #111
+
+.discount
+    padding-top: 110px
+    padding-bottom: 112px
+    display: flex
+    text-align: center
+    flex-direction: column
+    align-items: center
+    &__heading
+        font-weight: 700
+        font-size: 48px
+        line-height: 57px
+        margin-bottom: 85px
+        &_orange
+            color: #FCB500
+
+.price
+    display: flex
+    align-items: center
+    margin-bottom: 59px
+    &__text
+        font-size: 48px
+        line-height: 57px
+        &_old
+            font-size: 36px
+            line-height: 43px
+            color: #ADADAD
+            text-decoration: line-through
+            margin-right: 32px
+
+.advantages
+    display: flex
+    margin-bottom: 64px
+    &__item
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        &:not(:last-child)
+            margin-right: 111px
+    &__img
+        margin-bottom: 45px
+    &__text
+        font-size: 18px
+        line-height: 21px
+        &_big
+            font-size: 36px
+            line-height: 43px
+            margin-bottom: 8px
+        &_medium
+            font-size: 24px
+            line-height: 28px
+        &_orange
+            color: #FCB500
+
+.button
+    outline: none
+    background-color: #FCB500
+    color: #000
+    font-size: 18px
+    line-height: 21px
+    cursor: pointer
+    padding: 16px 32px
+    border-radius: 7px
+    &:hover
+        background-color: #FCB500 - #222
+    &:active
+        background-color: #FCB500 - #444
