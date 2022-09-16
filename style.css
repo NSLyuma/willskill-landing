@@ -13,6 +13,11 @@ a {
   text-decoration: none;
 }
 
+button {
+  outline: none;
+  border: 0 solid transparent;
+}
+
 .center {
   padding-left: calc(50% - 656px);
   padding-right: calc(50% - 656px);
@@ -340,7 +345,6 @@ a {
 }
 
 .button {
-  outline: none;
   background-color: #FCB500;
   color: #000;
   font-size: 18px;
